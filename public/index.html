@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js" integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="chat-wrap">
+        <div id="chat-header">
+            <h2>WhatsApp Chat</h2>
+        </div>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <div id="input-area">
+            <input type="text" id="sender" placeholder="Ad">
+            <input type="text" id="message" placeholder="Mesaj">
+            <button id="submitBtn">Gönder</button>
+        </div>
+    </div>
+    <script src="chat.js" charset="UTF-8"></script>
+</body>
+</html>
